@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.16",
+    "interface_version": 2,
+    "init_once": false,
+    "locale": [
+      "ru",
+      "en"
+    ],
+    "installation": true,
+    "support": {
+      "link": "https://www.instagram.com/_itwelt",
+      "email": "rassulovmurad@gmail.com"
+    }
+  },
+  "locations": [
+    "settings",
+    "lcard-0"
+  ],
+  "tour": {
+    "is_tour": true,
+    "tour_images": {
+      "ru": [
+        "/images/logo_main.png"
+      ]
+    },
+    "tour_description": "widget.tour_description"
+  },
+  "settings": {
+    "login": {
+      "name": "settings.login",
+      "type": "text",
+      "required": false
+    }
+  }
+}
