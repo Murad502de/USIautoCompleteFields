@@ -4,6 +4,7 @@ define( [ 'jquery', 'underscore', 'twigjs', 'lib/components/base/modal' ], funct
 
     this.config = {
       isDev : true,
+      debug : true,
       baseUrl : 'https://',
       name : 'USIautoCompleteFields',
       widgetPrefix : 'USIautoComp',
@@ -192,7 +193,7 @@ define( [ 'jquery', 'underscore', 'twigjs', 'lib/components/base/modal' ], funct
 
     this.helpers = {
       debug : function ( text ) {
-        if ( self.config.isDev ) console.debug( text );
+        if ( self.config.debug ) console.debug( text );
       }
     },
 
